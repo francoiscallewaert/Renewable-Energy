@@ -47,7 +47,7 @@ def input():
     return render_template('index3.html', begin=Begin, h=H, h2=H2, wind=W, solar=Sol, storage=Sto, storage1=180*(Storage1+1))
 
 if __name__ == '__main__':
-    app.run(host = '0.0.0.0')
+    app.run()
 
 
 ## Methods ##
