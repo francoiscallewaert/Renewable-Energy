@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="{{ url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="{{ url_for('static', filename='vendor/magnific-popup/magnific-popup.css') }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/creative.css') }}" rel="stylesheet">
+      
+     <style>
+      div.goLeft{
+        position: relative;
+        left: -100px;
+        }
+      div.goTop{
+        position: relative;
+        top: -50px;
+        }
+      div.mypic{
+        position: relative;
+        left: -200px;
+        }
+      .bigFont li{
+        font-size:20px;
+        color:white;
+        }
+      .hugeFont li{
+        font-size:25px;
+        color:white;
+        }
+      form.form1{
+        position: relative;
+        top: -150px;
+        }
+      form.form2{
+        position: relative;
+        top: -250px;
+        }
+      label{
+        font-size:18px;
+        color:white;
+        }
+      output{
+        font-size:15px;
+        color:white;
+        }
+     </style>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#start">Project</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#FranceGermany">Motivations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#model">Model</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#main_graph">Power profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#graph2">3-year Predictions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#conclusions">Conclusions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#implementation">Implementation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">About me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex", id="start">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>
+                  <font color="#2ECC71">Green Power</font>
+              </strong>
+            </h1>
+            <hr>
+          </div>
+          
+            <div style="width:1200px; height:300px; overflow:auto;">
+                    <img src="static/img/wind.png" width="300" height="300" />
+                    <img src="static/img/France.png" width="300" height="300" hspace="30" />
+                    <img src="static/img/solar.png" width="300" height="300" />
+            </div>
+            
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">
+                <font color="green"> This project explores the renewable electricity potential in France, the impact on the grid and the business opportunity. </font>
+            </p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#FranceGermany">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="FranceGermany">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mx-auto text-center">
+            <h1 class="section-heading text-white"> Paris agreement </h1>    
+            <div class="energies text-center" style="width:400px; height:20px; overflow:auto;"></div>
+            <img src="static/img/cop21.jpg" width="400" height="350"/>
+          </div>   
+          <div class="col-lg-6 mx-auto text-center">
+            <h1 class="section-heading text-white"> France vs Germany </h1>  
+            <div class="energies text-center" style="width:400px; height:20px; overflow:auto;"></div>
+            <img src="static/img/fr_vs_ge.jpg" width="400" height="350"/>
+        </div>
+        </div>
+        
+        <div class="energies text-center" style="width:1200px; height:50px; overflow:auto;"></div>
+        <div class="row">   
+          <div class="col-lg-12 mx-auto text-center">
+            <p class="text-faded mb-4"><br /> 
+                <font size="5">While Germany gets 20% electricity from wind and solar, France is at 6% only. <br />
+                               Catching up will be a big technical challenge but also a great business opportunity!!</font>
+            </p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#model">Model</a>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <section class="bg-primary" id="model">
+      <div class="container">
+        <h1 class="text-uppercase text-center">
+          <strong>
+            <font color="white">The Model</font>
+          </strong>
+        </h1>
+            <ul class="bigFont">
+              <li> Challenge: combine multiple energy sources with very different production patterns</li>
+            </ul>
+          <div class="row">
+          <div class="energies text-center" style="width:1400px; height:400px; overflow:auto;">
+              <img src="static/img/nuclear.jpg" width="250" height="200"/>
+              <img src="static/img/coal.jpg" width="350" height="200"/>
+              <img src="static/img/hydro.jpg" width="250" height="200"/>
+              <img src="static/img/wind.gif" width="350" height="200"/>
+              <img src="static/img/solar.jpg" width="250" height="200"/>
+              <img src="static/img/pumped hydro.jpg" width="250" height="200"/>  
+          </div>
+          </div>
+            <ul class="bigFont">
+              <li> <a href="http://www.rte-france.com/fr/eco2mix/eco2mix-donnees-regionales">Data:</a> hourly production by fuel for 2015-2017 (>200,000 datapoints)</li>
+              <li> The model relies on wind, solar and storage to decrease the consumption of fossil fuels and nuclear</li>
+              <li> Next is an interactive plot showing the power profile by fuel for different amounts of wind, solar and storage</li>
+            </ul>
+          <div class="text-center">
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#main_graph">Power profiles</a>
+          </div>
+        </div>
+    </section>
+      
+      
+    <section class="bg-primary" id="main_graph" style ='background-color: #2ba6cb;'>
+      <div class="row justify-content-center align-items-end">
+          <div class="col-lg-2">
+            <div class="center-block d-inline-block text-center">
+              <form class="form1" id="form" method='post' action="#main_graph">
+                  <label for="wind">Wind power (GW):</label>
+                  <input type="range" name = "wind" id="windIn" min="5" max="50" value="{{wind}}" step="5" oninput="windOut.value = windIn.value">
+                  <output name="wind" id="windOut">{{wind}}</output>
+
+                  <label for="solar">Solar power (GW):</label>
+                  <input type="range" name = "solar" id="solIn" min="5" max="50" value="{{solar}}" step="5" oninput="solOut.value = solIn.value">
+                  <output name="solar" id="solOut">{{solar}}</output>
+
+                  <label for="storage">Storage (GWh):</label>
+                  <input type="range" name = "storage" id="storIn" min="180" max="1800" step="180" value="{{storage}}" oninput="storOut.value = storIn.value">
+                  <output name="storage" id="storOut">{{storage}}</output>
+
+                  <label for="wind">Start date:</label>
+                  <input type="date" id="myDate" value="{{begin}}" name = "begin">
+                  
+                  <div class="row justify-content-center">
+                  <button id="query" class="btn btn-outline btn-md center js-scroll-trigger">Try it!</button>
+                  </div>
+              </form>
+           </div>
+        </div>
+          
+        <div class="col-lg-10">
+          <div class="row">
+          <div class="center-block d-inline-block text-center">
+              <h1 class="section-heading text-white"> Power profile: Historic data vs model </h1>
+              <p><font color="white">
+                      Change the desired amount of wind, solar and storage power installed and explore the impact on the production profile at any week between 2015 and 2017. <br />
+                      Historic nuclear production data is substracted from the graphs, which is why nuclear power can be negative in the model.
+               </font> </p>
+              <div class="plot1"> {{ h | safe}} </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+      
+      
+    <section class="bg-primary" id="graph2" style ='background-color: #2ba6cb;'>
+      <div class="row justify-content-center align-items-end">
+          <div class="col-lg-2">
+            <div class="center-block d-inline-block text-center">
+              <form class="form2" id="form" method='post' action="#graph2">
+                  <label for="storage1">Storage (GWh):</label>
+                  <input type="range" name = "storage1" id="storIn" min="180" max="1800" step="180" value="{{storage1}}" oninput="storOut.value = storIn.value">
+                  <output name="storage" id="storOut">{{storage1}}</output>
+                  <div class="row justify-content-center">
+                  <button id="query" class="btn btn-outline btn-md center js-scroll-trigger">Try it!</button>
+                  </div>
+              </form>
+           </div>
+        </div>
+          
+        <div class="col-lg-8">
+          <div class="row">
+          <div class="center-block d-inline-block text-center">
+              <h1 class="section-heading text-white"> 3-year predictions </h1>
+              <div class="plot1"> {{ h2 | safe}} </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+      
+    <section class="bg-primary" id="conclusions">
+      <div class="container">
+        <div class="row">
+        <div class="col-lg-0 mx-auto text-center"></div>
+        <div class="col-lg-12 mx-auto">
+        <h1 class="text-uppercase text-center">
+          <strong>
+            <font color="white">CONCLUSIONS</font>
+          </strong>
+        </h1>
+            <ul class="hugeFont">
+              <li> 35GW wind and solar can be installed with high marginal value (low waste)</li>
+              <li> Beyond, more pumped hydro storage needed</li>
+              <li> Fossil fuels could be decreased from 9 to 2% and nuclear from 72 to 59%</li>
+              <li> <b>Investment opportunity = $40B for wind and $25B for solar</b></li>
+            </ul>
+        </div> 
+        </div>
+          <div class="row">
+          <div class="col-lg-12 mx-auto text-center">
+          <div class="energies text-center" style="width:1200px; height:50px; overflow:auto;"></div>
+          <div class="energies text-center" style="width:1200px; height:300px; overflow:auto;">
+              <img src="static/img/solar_concl.jpg" width="350" height="250"/>
+              <img src="static/img/plot_concl.jpg" width="500" height="250" hspace="80"/>
+          </div>
+          <ul class="hugeFont">
+              <li> <b>Data analytics: battery control (<a href="http://www.stem.com/">Stem</a>), solar panel inspection (<a href="https://abjdrones.com/">ABJDrone</a>), wind maintenance prediction (<a href="https://www.ge.com/digital/predix">GE Predix</a>)</b> </li>
+          </ul>
+          </div>
+          </div>
+        </div>
+    </section>
+      
+      
+    <section class="bg-primary" id="implementation">
+      <div class="container">
+        <h1 class="text-uppercase text-center">
+          <strong>
+            <font color="white">Model implementation</font>
+          </strong>
+        </h1>
+            <ul class="bigFont">
+              <li> This model considers the hourly power production by source during three years (2015-2017).</li>
+              <li> Because nuclear power fluctuates very slowly at the scale of the week, and corresponds to more than 2/3 of the total production, we subtract it from the total to focus on the highly variable part of the production.</li>
+              <li> "Power profile" page allows to change the desired amount of wind, solar and storage. The model predicts the behavior of the grid during 3 years given those inputs. Here is a short summary of how the calculations are done:</li>
+              <p><font color="white"> The main challenge here is to balance sources that cannot be controlled (wind, solar) with sources that can be controlled (hydroelectricity, nuclear and fossil fuels) such that production = consumption at any time. If production &gt; consumption, energy is wasted, which is uneconomical. If production &lt; consumption, there is a blackout (shortage), which must be avoided absolutely. Additionally, the model is designed to reduce the amount of fossil fuels to a negligible amount (1-2%).<br />
+                  Hydro and storage have similar characteristics, especially given that storage is based on pumped hydro technology. For hydroelectricity, we assume lakes have a full capacity of 3600GWh, a refill rate of 1.5GW and an output between 0 and 8.5GW. Pumped hydro does not produce anything, but it can store some energy, then release it later with an efficiency of 85%. The maximum in/out power is 4GW for a total storage of 180GWh (current situation), and we assume it grows linearly when we model larger amount of storage, up to +/-13GW for 1800GWh storage.<br />
+                  The model can be described as a control system, with (total consumption - historic nuclear production) as target output. Then, wind, solar and nuclear are automatically added to production, as nuclear cannot be controlled in short term. If production is too high, excess production is stored into pumped hydro. If the production is too low, a combination of hydro and storage are used to match consumption. If this is not enough or if hydro/storage are too low, fossil fuels are used to match the short-term shortage, and nuclear output is slowly increased to ensure a stable long-term situation and decrease fossil fuels use.
+              </font></p>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section class="bg-dark text-white" id="contact">
+      <div class="container">
+      <div class="col-lg-12 mx-auto text-center">
+        <div class="mypic" style="width:1600px; height:350px; overflow:auto;">
+          <img src="static/img/me.PNG" width="240" height="350"/>
+          <img src="static/img/Trips.PNG" width="700" height="300" hspace="100" />
+        </div>
+      </div>
+      <div class="col-lg-12 mx-auto">
+        <h2>A little bit about me</h2>
+            <ul>
+              <li>BS Engineering @ Ecole Polytechnique, Paris, France</li>
+              <li>PhD Electrical Engineering @ Northwestern University, Evanston, IL</li>
+              <li>The Data Incubator @ Oakland, CA</li>
+              <li>Looking for data science job opportunities in Seattle area from March</li>
+            </ul>  
+     </div>
+     </div>
+    </section>
+
+    <section id="contact2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">Looking for a data scientist? That's great! Give me a call or send me an email and we will change the world together!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>224-723-0026</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">francois.callewaert@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.js') }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/scrollreveal/scrollreveal.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/magnific-popup/jquery.magnific-popup.js') }}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ url_for('static', filename='js/creative.js') }}"></script>
+
+  </body>
+
+</html>
