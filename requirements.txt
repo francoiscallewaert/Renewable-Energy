@@ -3,3 +3,4 @@ requests
 matplotlib
 mpld3
 seaborn
+flask
