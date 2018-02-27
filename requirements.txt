@@ -4,3 +4,4 @@ matplotlib
 mpld3
 seaborn
 flask
+tkinter
