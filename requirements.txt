@@ -1,7 +1,2 @@
 gunicorn
 requests
-matplotlib
-mpld3
-seaborn
-flask
-tkinter
