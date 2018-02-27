@@ -8,3 +8,4 @@ simplejson
 matplotlib
 mpld3
 seaborn
+tkinter
