@@ -8,4 +8,4 @@ simplejson
 matplotlib
 mpld3
 seaborn
-tkinter
+python3-tk
