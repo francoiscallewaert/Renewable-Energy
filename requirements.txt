@@ -1,5 +1,5 @@
-gunicorn==19.7.1
-requests==2.18.4
+gunicorn
+requests
 matplotlib
 mpld3
 seaborn
