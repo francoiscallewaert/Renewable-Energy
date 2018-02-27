@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt, mpld3
 import datetime
 import matplotlib.patches as mpatches
 import seaborn as sns; sns.set()
-import _pickle as cPickle
+import pickle as cPickle
 from dateutil import parser
 
 df = pd.read_csv('prod_filiere_hourly_mod2.csv')
