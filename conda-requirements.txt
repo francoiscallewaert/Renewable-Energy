@@ -1,0 +1,8 @@
+pandas
+flask
+jinja2
+pip
+simplejson
+matplotlib
+mpld3
+seaborn
