@@ -1,2 +1,5 @@
 gunicorn
 requests
+pandas
+flask
+jinja2
