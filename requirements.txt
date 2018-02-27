@@ -8,4 +8,4 @@ simplejson
 matplotlib
 mpld3
 seaborn
-python3-tk
+python-tk
